@@ -1,0 +1,203 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Untitled Document</title>
+<link href="boilerplate.css" rel="stylesheet" type="text/css">
+<link href="homepage.css" rel="stylesheet" type="text/css">
+<!-- 
+To learn more about the conditional comments around the html tags at the top of the file:
+paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/
+
+Do the following if you're using your customized build of modernizr (http://www.modernizr.com/):
+* insert the link to your js here
+* remove the link below to the html5shiv
+* add the "no-js" class to the html tags at the top
+* you can also remove the link to respond.min.js if you included the MQ Polyfill in your modernizr build 
+-->
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script src="respond.min.js"></script>
+</head>
+<body>
+
+<div class="gridContainer clearfix">
+  <div id="LayoutDiv1"><div class="h1">
+    <h1> Jack's Christmas Catolog</h1> 
+    </div> 
+
+<div class="menuBackground">
+	<ul class="dropDownMenu">
+		<li><a href="Untitled-1.html">Home</a></li>
+		<li><a href="Untitled-1.html">Music</a>
+		<li><a href="movies.html">Top 5 Movies</a>
+<li><a href="#">Foods</a>
+			<ul>
+				<li><a href="roasted turkey.html">Roasted Turkey</a>
+				</li>
+				<li><a href="turkey stuffing.html">Turkey Stuffing</a>
+                </li>
+				<li><a href="potatoes.html">Candied sweet potatoes</a>
+                </li>
+			</ul>
+</li>
+</div>
+
+<!--Real Display-->
+
+<div id="LayoutDiv2"><h2> Bing Crosby</h2>
+
+<p>1. <a href="https://www.youtube.com/watch?v=GJSUT8Inl14">White Christmas</a></p>
+<p>2. <a href="#">Adeste Fidelis</a></p>
+<p>3. <a href="#">Do You Hear What I hear?</a></p>
+<div id="bing1">
+<img src="bing crosby/bing 1.jpg" height="135">
+</div>
+<div id="bing2">
+<img src="bing crosby/bing 2.jpg" width="133" height="135">
+</div>
+<div id="bing3">
+  <img src="bing crosby/bing 3.jpg" width="124" height="135"> 
+</div>
+</div>
+
+<div id="LayoutDiv3"><h2>Frank Sinatra</h2>
+
+<p>1. <a href="#">Have Yourself A Merry Little Christmas</a></p>
+<p>2. <a href="#">Santa Clause Is Coming To Town</a></p>
+<p>3. <a href="#">Jingle Bells</a></p>
+<div id="frank1">
+<img src="frank sinatra/frank 1.jpg" width="131" height="110">
+</div>
+<div id="frank2">
+<img src="frank sinatra/frank 2.jpg" width="133" height="110"></div>
+<div id="frank3">
+<img src="frank sinatra/frank 3.jpg" width="129" height="110"> 
+</div>
+</div>
+
+<div id="LayoutDiv4"><h2> Amy Grant</h2>
+
+<p>1. <a href="#">Sleigh Ride</a></p>
+<p>2. <a href="#">It's The Most Wonderful Time Of The Year</a></p>
+<p>3. <a href="#">Winter  Wonderland</a></p>
+<div id="amy1">
+<img src="amy grant/amy 1.jpg" width="121" height="120"> 
+</div>
+<div id="amy2">
+<img src="amy grant/amy 2.jpg" width="121" height="120"> 
+</div>
+<div id="amy3">
+<img src="amy grant/amy 3.jpg" width="121" height="120"> 
+</div>
+</div>
+
+<style>
+a:visited {
+	color: #F00;	
+}
+a:link {
+	color: #F00;
+}
+* {
+	text-decoration: none;
+}
+body {
+    background-image: url("http://goo.gl/LyKHju");
+}
+
+h2 {
+	text-align:center;
+	color: #090;
+}
+
+.h1 {
+	text-align:center;
+	font-family: cursive;
+	color: #090;
+}
+.dropDownMenu ul ul {
+	list-style: none;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: Arial, Helvetica, 	sans-serif;
+	font-size: 10pt;
+}
+/* Menu General Styles */
+.menuBackground {
+	background: #060;
+}
+.dropDownMenu a {
+	color: #F00;
+}
+.dropDownMenu ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.dropDownMenu li {
+	position: relative;
+}
+.dropDownMenu a {
+	padding: 10px 20px;
+	display: block;
+	text-decoration: none;
+}
+.dropDownMenu a:hover {
+	background: #060;
+}
+
+
+/* Level 1 Drop Down Menu */
+.dropDownMenu > li {
+	display: inline-block;
+	vertical-align: top;
+	margin-left: -4px; 
+}
+.dropDownMenu > li:first-child {
+	margin-left: 0;
+}
+.dropDownMenu > li > ul {
+	text-align: left;
+	width: auto; 
+	display: none;
+	background: #090;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	z-index: 9999999;
+}
+.dropDownMenu > li:hover > ul {
+	display: block;
+}
+.dropDownMenu > li > ul > li > ul {
+	text-align: left;
+	display: none;
+	background: #090;
+	position: absolute;
+	left: 100%;
+	top: 0;
+	z-index: 9999999;
+}
+.dropDownMenu > li > ul > li:hover > ul {
+	display: block;
+}
+</style>
+  
+</div>
+</div>
+
+</body>
+</html>

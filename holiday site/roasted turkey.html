@@ -1,0 +1,174 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Untitled Document</title>
+<link href="boilerplate.css" rel="stylesheet" type="text/css">
+<link href="foods.css" rel="stylesheet" type="text/css">
+<!-- 
+To learn more about the conditional comments around the html tags at the top of the file:
+paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/
+
+Do the following if you're using your customized build of modernizr (http://www.modernizr.com/):
+* insert the link to your js here
+* remove the link below to the html5shiv
+* add the "no-js" class to the html tags at the top
+* you can also remove the link to respond.min.js if you included the MQ Polyfill in your modernizr build 
+-->
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script src="respond.min.js"></script>
+</head>
+<body>
+<div class="gridContainer clearfix">
+  <div id="LayoutDiv1"><div class="h1">
+    <h1> Jack's Christmas Catolog</h1> 
+    </div> 
+
+<div class="menuBackground">
+	<ul class="dropDownMenu">
+		<li><a href="Untitled-1.html">Home</a></li>
+		<li><a href="Untitled-1.html">Music</a>
+		<li><a href="movies.html">Top 5 Movies</a>
+<li><a href="#">Foods</a>
+			<ul>
+				<li><a href="roasted turkey.html">Roasted Turkey</a>
+				</li>
+				<li><a href="turkey stuffing.html">Turkey Stuffing</a>
+                </li>
+				<li><a href="potatoes.html">Candied sweet potatoes</a>
+                </li>
+			</ul>
+</li>
+<!--Real Display-->
+<div id="LayoutDiv2"><h2> Roasted Turkey</h2></div>
+<div id="LayoutDiv3"><h2>Ingredients:</h2></div>
+<div id="LayoutDiv4"><a href="http://pubads.g.doubleclick.net/gampad/clk?id=4298177970&iu=/3865">1. (18 pound) whole turkey</a>
+<a href="http://www.chowhound.com/recipes/basic-turkey-stock-11132">2. 1/2 quarts turkey stock</a>
+<a href="http://www.pepperidgefarm.com/ProductDetail.aspx?catID=770&prdID=11833">3. 8 cups of prepared stuffing</a>
+<a href="#">4. 1/2 of cup unsalted butter, softened</a>
+<a href="#">5. Salt and freshly ground black pepper to taste</a>
+</div>
+<div id="LayoutDiv5"><h2>Directions:</h2></div>
+<div id="LayoutDiv6"><p>1. Preheat oven to 325 degrees F (165 degrees C). Place rack in the lowest position of the oven.</p>
+<p> 2. Remove the turkey neck and giblets, rinse the turkey, and pat dry with paper towels. Place the turkey, breast side up, on a rack in the roasting pan. Loosely fill the body cavity with stuffing. Rub the skin with the softened butter, and season with salt and pepper. Position an aluminum foil tent over the turkey.</p><p> 3. Place turkey in the oven, and pour 2 cups turkey stock into the bottom of the roasting pan. Baste all over every 30 minutes with the juices on the bottom of the pan. Whenever the drippings evaporate, add stock to moisten them, about 1 to 2 cups at a time. Remove aluminum foil after 2 1/2 hours. Roast until a meat thermometer inserted in the meaty part of the thigh reads 180 degrees F (80 degrees C), about 4 hours.</p><p> 4. Transfer the turkey to a large serving platter, and let it stand for at least 20 to 30 minutes before carving.</p></div>
+<div id="LayoutDiv7"><img src="amy grant/turkeyyy.jpg"></div>
+<style>
+img src {
+	text-align: center;	
+}
+p {
+	text-align:left;
+	color: #F00;
+	padding: 5px;
+}
+a:visited {
+	color: #F00;	
+}
+a:link {
+	color: #F00;
+}
+* {
+	text-decoration: none;
+}
+body {
+    background-image: url("http://goo.gl/LyKHju");
+}
+
+h2 {
+	text-align:center;
+	color: #090;
+}
+
+.h1 {
+	text-align:center;
+	font-family: cursive;
+	color: #090;
+}
+.h3 {
+	text-align:center;
+	font-family: cursive;
+	color: #090;
+}
+.dropDownMenu ul ul {
+	list-style: none;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: Arial, Helvetica, 	sans-serif;
+	font-size: 10pt;
+}
+/* Menu General Styles */
+.menuBackground {
+	background: #060;
+}
+.dropDownMenu a {
+	color: #F00;
+}
+.dropDownMenu ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.dropDownMenu li {
+	position: relative;
+}
+.dropDownMenu a {
+	padding: 10px 20px;
+	display: block;
+	text-decoration: none;
+}
+.dropDownMenu a:hover {
+	background: #060;
+}
+
+
+/* Level 1 Drop Down Menu */
+.dropDownMenu > li {
+	display: inline-block;
+	vertical-align: top;
+	margin-left: -4px; 
+}
+.dropDownMenu > li:first-child {
+	margin-left: 0;
+}
+.dropDownMenu > li > ul {
+	text-align: left;
+	width: auto; 
+	display: none;
+	background: #090;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	z-index: 9999999;
+}
+.dropDownMenu > li:hover > ul {
+	display: block;
+}
+.dropDownMenu > li > ul > li > ul {
+	text-align: left;
+	display: none;
+	background: #090;
+	position: absolute;
+	left: 100%;
+	top: 0;
+	z-index: 9999999;
+}
+.dropDownMenu > li > ul > li:hover > ul {
+	display: block;
+}
+
+</style>
+</body>
+</html>

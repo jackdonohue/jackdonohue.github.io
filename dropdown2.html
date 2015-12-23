@@ -1,0 +1,115 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+<div class="menuBackground">
+	<ul class="dropDownMenu">
+		<li><a href="#">Home</a></li>
+		<li><a href="#">Movies</a>
+			<ul>
+				<li><a href="#">Harry Potter</a></li>
+				<li><a href="#">Step Brothers</a></li>
+				<li><a href="#">Get Hard</a></li>
+			</ul>
+		</li>
+		<li><a href="#">Music</a>
+			<ul>
+				<li><a href="#">Logic</a>
+					<ul>
+						<li><a href="#">Bounce</a></li>
+						<li><a href="#">Young Jesus</a></li>
+						<li><a href="#">Like Woah</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Drake</a></li>
+				<li><a href="#">Kid Kudi</a></li>
+			</ul>
+		</li>
+		<li><a href="#">Food</a>
+			<ul>
+				<li><a href="#">Steak</a></li>
+				<li><a href="#">Mac n Cheese</a></li>
+				<li><a href="#">Carrots</a></li>
+			</ul>
+		</li>
+	</ul>
+</div>
+<style>
+.dropDownMenu ul ul {
+	list-style: none;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+}
+/* Menu General Styles */
+.menuBackground {
+	background: black;
+}
+.dropDownMenu a {
+	color: #FFF;
+}
+.dropDownMenu ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.dropDownMenu li {
+	position: relative;
+}
+.dropDownMenu a {
+	padding: 10px 20px;
+	display: block;
+	text-decoration: none;
+}
+.dropDownMenu a:hover {
+	background: #000;
+}
+
+
+/* Level 1 Drop Down Menu */
+.dropDownMenu > li {
+	display: inline-block;
+	vertical-align: top;
+	margin-left: -4px; 
+}
+.dropDownMenu > li:first-child {
+	margin-left: 0;
+}
+.dropDownMenu > li > ul {
+	text-align: left;
+	width: auto; 
+	display: none;
+	background: #666;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	z-index: 9999999;
+}
+.dropDownMenu > li:hover > ul {
+	display: block;
+}
+.dropDownMenu > li > ul > li > ul {
+	text-align: left;
+	display: none;
+	background: #666;
+	position: absolute;
+	left: 100%;
+	top: 0;
+	z-index: 9999999;
+}
+.dropDownMenu > li > ul > li:hover > ul {
+	display: block;
+}
+</style>
+</body>
+</html>
