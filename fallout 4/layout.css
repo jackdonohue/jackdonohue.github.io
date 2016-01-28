@@ -1,0 +1,606 @@
+@charset "utf-8";
+/* Simple fluid media
+   Note: Fluid media requires that you remove the media's height and width attributes from the HTML
+   http://www.alistapart.com/articles/fluid-images/ 
+*/
+img, object, embed, video {
+	max-width: 100%;
+}
+/* IE 6 does not support max-width so default to width 100% */
+.ie6 img {
+	width:100%;
+}
+
+/*
+	Dreamweaver Fluid Grid Properties
+	----------------------------------
+	dw-num-cols-mobile:		5;
+	dw-num-cols-tablet:		8;
+	dw-num-cols-desktop:	10;
+	dw-gutter-percentage:	25;
+	
+	Inspiration from "Responsive Web Design" by Ethan Marcotte 
+	http://www.alistapart.com/articles/responsive-web-design
+	
+	and Golden Grid System by Joni Korpi
+	http://goldengridsystem.com/
+*/
+
+/* Mobile Layout: 480px and below. */
+
+img src {
+	text-align: center;	
+}
+p {
+	text-align:left;
+	color: #333;
+	padding: 5px;
+}
+a:visited {
+	color: #666;	
+}
+a:link {
+	color: #666;
+}
+* {
+	text-decoration: none;
+}
+body {
+    background-image: url("http://s7ondemand1.scene7.com/is/image/Polo/LWP62739W?$itemlevel$");
+}
+
+h2 {
+	text-align:center;
+	color: #666;
+}
+
+.h1 {
+	text-align:center;
+	font-family: cursive;
+	color: #666;
+}
+.h3 {
+	text-align:center;
+	font-family: cursive;
+	color: #090;
+}
+.dropDownMenu ul ul {
+	list-style: none;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: Arial, Helvetica, 	sans-serif;
+	font-size: 10pt;
+}
+
+.menuBackground {
+	background: #666;
+}
+.dropDownMenu a {
+	color: #333;
+}
+.dropDownMenu ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.dropDownMenu li {
+	position: relative;
+}
+.dropDownMenu a {
+	padding: 10px 20px;
+	display: block;
+	text-decoration: none;
+}
+.dropDownMenu a:hover {
+	background: #999;
+}
+
+.dropDownMenu > li {
+	display: inline-block;
+	vertical-align: top;
+	margin-left: -4px; 
+}
+.dropDownMenu > li:first-child {
+	margin-left: 0;
+}
+.dropDownMenu > li > ul {
+	text-align: left;
+	width: auto; 
+	display: none;
+	background: #090;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	z-index: 9999999;
+}
+.dropDownMenu > li:hover > ul {
+	display: block;
+}
+.dropDownMenu > li > ul > li > ul {
+	text-align: left;
+	display: none;
+	background: #090;
+	position: absolute;
+	left: 100%;
+	top: 0;
+	z-index: 9999999;
+}
+.dropDownMenu > li > ul > li:hover > ul {
+	display: block;
+}
+
+
+.gridContainer {
+	margin-left: auto;
+	margin-right: auto;
+	width: 87.36%;
+	padding-left: 1.82%;
+	padding-right: 1.82%;
+}
+#LayoutDiv1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#falloutpic {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: inline;
+	height: 50px;
+	margin-top: 10px;
+	
+	
+}
+#navigation {
+	clear: none;
+	float: left;
+	margin-left: 4.1666%;
+	width: 100%;
+	display: block;
+}
+#content {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: inline;
+	margin-top: 10px;
+	height: 500px;
+}
+#LayoutDiv2 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#about {
+	border: solid #666;
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#Games {
+	border: solid #666;
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: inline;
+	margin-top: 10px;
+	text-align:center;
+	
+}
+#fallout4picture {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 50%;
+	display: inline;
+}
+#falloutvegaspic {
+	clear: none;
+	float: left;
+	margin-left: 4.1666%;
+	width: 100%;
+	display: block;
+}
+#fallout3pic {
+	clear: none;
+	float: left;
+	margin-left: 4.1666%;
+	width: 100%;
+	display: block;
+}
+#fallouttacticspic {
+	clear: none;
+	float: left;
+	margin-left: 4.1666%;
+	width: 100%;
+	display: block;
+}
+#apps {
+	border: solid #666;
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	margin-top: 10px;
+	text-align:center;
+}
+#shelter {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#pipboy {
+	clear: none;
+	float: left;
+	margin-left: 4.1666%;
+	width: 100%;
+	display: block;
+}
+#chat {
+	clear: none;
+	float: left;
+	margin-left: 4.1666%;
+	width: 100%;
+	display: block;
+}
+#appstore1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#appstore2 {
+	clear: none;
+	float: left;
+	margin-left: 4.1666%;
+	width: 100%;
+	display: block;
+}
+#googleplay1 {
+	clear: none;
+	float: left;
+	margin-left: 4.1666%;
+	width: 100%;
+	display: block;
+}
+#googleplay2 {
+	clear: none;
+	float: left;
+	margin-left: 4.1666%;
+	width: 100%;
+	display: block;
+}
+
+/* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
+
+@media only screen and (min-width: 481px) {
+.gridContainer {
+	width: 90.675%;
+	padding-left: 1.1625%;
+	padding-right: 1.1625%;
+}
+#LayoutDiv1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: inline;
+	
+}
+#falloutpic {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 10.2564%;
+	display: block;
+}
+#navigation {
+	clear: both;
+	float: left;
+	margin-left: 12.8205%;
+	width: 87.1794%;
+	display: inline;
+}
+#content {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#LayoutDiv2 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 48.7179%;
+	display: block;
+}
+#about {
+	border: solid #666;
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#Games {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#fallout4picture {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#falloutvegaspic {
+	clear: none;
+	float: left;
+	margin-left: 2.5641%;
+	width: 100%;
+	display: block;
+}
+#fallout3pic {
+	clear: none;
+	float: left;
+	margin-left: 2.5641%;
+	width: 100%;
+	display: block;
+}
+#fallouttacticspic {
+	clear: none;
+	float: left;
+	margin-left: 2.5641%;
+	width: 100%;
+	display: block;
+}
+#apps {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#shelter {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#pipboy {
+	clear: none;
+	float: left;
+	margin-left: 2.5641%;
+	width: 100%;
+	display: block;
+}
+#chat {
+	clear: none;
+	float: left;
+	margin-left: 2.5641%;
+	width: 100%;
+	display: block;
+}
+#appstore1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#appstore2 {
+	clear: none;
+	float: left;
+	margin-left: 2.5641%;
+	width: 100%;
+	display: block;
+}
+#googleplay1 {
+	clear: none;
+	float: left;
+	margin-left: 2.5641%;
+	width: 100%;
+	display: block;
+}
+#googleplay2 {
+	clear: none;
+	float: left;
+	margin-left: 2.5641%;
+	width: 100%;
+	display: block;
+}
+}
+
+/* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
+
+@media only screen and (min-width: 769px) {
+.gridContainer {
+	width: 88.2%;
+	max-width: 1232px;
+	padding-left: 0.9%;
+	padding-right: 0.9%;
+	margin: auto;
+}
+#LayoutDiv1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#falloutpic {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 8.1632%;
+	display: block;
+}
+#navigation {
+	clear: none;
+	float: left;
+	margin-left: 2.0408%;
+	width: 89.7959%;
+	display: block;
+	height: 40px;
+}
+#content {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: inline;
+	
+}
+#LayoutDiv2 {
+	clear: both;
+	
+	float: left;
+	
+	margin-left: 0;
+	
+	width: 100%;
+	
+	display: block;
+	
+}
+#about {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: inline;
+	height: 100px;
+	text-align:center;
+	
+}
+#Games {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	
+}
+#fallout4picture {
+	clear: both;
+	
+	float: left;
+	
+	margin-left: 0;
+	
+	width: 48.9795%;
+	
+	display: block;
+	
+}
+#falloutvegaspic {
+	clear: none;
+	
+	float: left;
+	
+	margin-left: 2.0408%;
+	
+	width: 48.9795%;
+	
+	display: block;
+	
+}
+#fallout3pic {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 48.9795%;
+	display: block;
+	margin-top: 10px;
+	
+}
+#fallouttacticspic {
+	clear: none;
+	float: left;
+	margin-left: 2.0408%;
+	width: 48.9795%;
+	display: block;
+	margin-top: 10px;
+	
+}
+#apps {
+	clear: both;
+	
+	float: left;
+	
+	margin-left: 0;
+	
+	width: 100%;
+	
+	display: block;
+	
+}
+#shelter {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 48.9795%;
+	display: block;
+	
+}
+#pipboy {
+	clear: none;
+	float: left;
+	margin-left: 2.0408%;
+	width: 48.9795%;
+	display: block;
+	height: 245px;
+}
+#pipboy img {
+	height: 245px;
+	
+}
+#chat {
+	clear: none;
+	float: left;
+	margin-left: 2.0408%;
+	width: 48.9795%;
+	display: block;
+	
+}
+#appstore1 {
+	clear: both;
+	float: left;
+	margin-left: 190px;
+	width: 18.3673%;
+	display: block;
+	
+}
+#appstore2 {
+	clear: none;
+	float: left;
+	margin-left: 470px;
+	width: 18.3673%;
+	display: block;
+	
+}
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Untitled Document</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+
+<table width="300" border="1">
+  <th>NAME</th>
+  <th>GENDER</th>
+  <th>BIRTHDAY</th>
+  <tr>
+    <td width="100">John Smith</td>
+    <td width="100">M</td>
+    <td width="100">2/6/1954</td>
+  </tr>
+  <tr>
+    <td>Jill Smit</td>
+    <td>F</td>
+    <td>6/8/1972</td>
+  </tr>
+</table>
+<style>
+th {
+	border:hidden;
+	text-decoration:underline;
+}
+table {
+	border:hidden;
+	text-align:center;
+}
+td {
+	border:thin solid #000000;
+
+}
+</style>
+
+</body>
+</html>
