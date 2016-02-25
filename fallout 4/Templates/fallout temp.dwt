@@ -36,11 +36,16 @@ Do the following if you're using your customized build of modernizr (http://www.
     <div id="falloutpic"><a href="index.html"><img src="../2000px-Fallout_logo.svg.png" height="40"></a></div>
     <div id="navigation"><div class="menuBackground">
 	<ul class="dropDownMenu">
-		<li><a href="../Untitled-1.html">Games</a></li>
-		<li><a href="../Untitled-1.html">Apps</a>
-		<li><a href="../movies.html">Swag</a>
+		<li><a href="games.html">Games</a></li>
+		<li><a href="apps.html">Apps</a></li>
+		<li><a href="http://store.bethsoft.com/brands/fallout.html">Swag</a></li>
+        	<li><a href="dlc.html">DLC</a>
+            <ul>
+				<li><a href="#">Far Harbor</a></li>
+				<li><a href="#">Wasteland Workshop</a></li>
 			</ul>
-</li></div>
+            </li>
+			</ul></div>
   </div>
 <div id="content">
 <!-- TemplateBeginEditable name="EditRegion1" -->

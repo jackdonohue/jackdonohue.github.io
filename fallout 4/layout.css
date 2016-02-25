@@ -192,15 +192,11 @@ body {
 	display: block;
 }
 #Games {
-	border: solid #666;
 	clear: both;
 	float: left;
 	margin-left: 0;
 	width: 100%;
-	display: inline;
-	margin-top: 10px;
-	text-align:center;
-	
+	display: block;
 }
 #fallout4picture {
 	clear: both;
@@ -210,23 +206,23 @@ body {
 	display: inline;
 }
 #falloutvegaspic {
-	clear: none;
+	clear: both;
 	float: left;
-	margin-left: 4.1666%;
+	margin-left: 0;
 	width: 100%;
 	display: block;
 }
 #fallout3pic {
-	clear: none;
+	clear: both;
 	float: left;
-	margin-left: 4.1666%;
+	margin-left: 0;
 	width: 100%;
 	display: block;
 }
 #fallouttacticspic {
-	clear: none;
+	clear: both;
 	float: left;
-	margin-left: 4.1666%;
+	margin-left: 0;
 	width: 100%;
 	display: block;
 }
@@ -237,8 +233,7 @@ body {
 	margin-left: 0;
 	width: 100%;
 	display: block;
-	margin-top: 10px;
-	text-align:center;
+	margin-top:10px;
 }
 #shelter {
 	clear: both;
@@ -255,9 +250,9 @@ body {
 	display: block;
 }
 #chat {
-	clear: none;
+	clear: both;
 	float: left;
-	margin-left: 4.1666%;
+	margin-left: 0;
 	width: 100%;
 	display: block;
 }
@@ -283,6 +278,212 @@ body {
 	display: block;
 }
 #googleplay2 {
+	clear: none;
+	float: left;
+	margin-left: 4.1666%;
+	width: 100%;
+	display: block;
+}
+#AboutGames {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#Fallout4 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#Fallout4pic {
+	clear: both;
+	float: left;
+	margin-left:0;
+	width: 100%;
+	display: block;
+}
+#fallout4picgamestab {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#falloutfour {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#falloutnewvegas {
+	clear: none;
+	float: left;
+	margin-left: 4.1666%;
+	width: 100%;
+	display: block;
+}
+#falloutthree {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#fallouttactics {
+	clear: none;
+	float: left;
+	margin-left: 4.1666%;
+	width: 100%;
+	display: block;
+}
+#fallouttwo {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#falloutone {
+	clear: none;
+	float: left;
+	margin-left: 4.1666%;
+	width: 100%;
+	display: block;
+}
+#gamesborder {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	border: solid #666;
+	margin-top: 10px;
+}
+#fallout4info {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#falloutNVinfo {
+	clear: none;
+	float: left;
+	margin-left: 4.1666%;
+	width: 100%;
+	display: block;
+}
+#farharbor {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	
+}
+#farharborpic {
+	clear: none;
+	float: left;
+	margin-left: 
+	width: 100%;
+	display: block;
+}
+#farhaborpic1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#farharpic1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#farharbortext1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#farharbortext2 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#farharborpic2 {
+	clear: none;
+	float: left;
+	margin-left: 4.1666%;
+	width: 100%;
+	display: block;
+}
+#farharbor2 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#wastelandworkshop {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#wwpic1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#wwpic2 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#wwtext {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#appspic1 {
+	clear: none;
+	float: left;
+	margin-left: 4.1666%;
+	width: 100%;
+	display: block;
+}
+#appspic2 {
+	clear: none;
+	float: left;
+	margin-left: 4.1666%;
+	width: 100%;
+	display: block;
+}
+#falloutsheltertext {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#falloutchattext {
 	clear: none;
 	float: left;
 	margin-left: 4.1666%;
@@ -331,7 +532,7 @@ body {
 	clear: both;
 	float: left;
 	margin-left: 0;
-	width: 48.7179%;
+	width: 100%;
 	display: block;
 }
 #about {
@@ -357,23 +558,23 @@ body {
 	display: block;
 }
 #falloutvegaspic {
-	clear: none;
+	clear: both;
 	float: left;
-	margin-left: 2.5641%;
+	margin-left: 0;
 	width: 100%;
 	display: block;
 }
 #fallout3pic {
-	clear: none;
+	clear: both;
 	float: left;
-	margin-left: 2.5641%;
+	margin-left: 0;
 	width: 100%;
 	display: block;
 }
 #fallouttacticspic {
-	clear: none;
+	clear: both;
 	float: left;
-	margin-left: 2.5641%;
+	margin-left: 0;
 	width: 100%;
 	display: block;
 }
@@ -399,9 +600,9 @@ body {
 	display: block;
 }
 #chat {
-	clear: none;
+	clear: both;
 	float: left;
-	margin-left: 2.5641%;
+	margin-left: 0;
 	width: 100%;
 	display: block;
 }
@@ -427,6 +628,210 @@ body {
 	display: block;
 }
 #googleplay2 {
+	clear: none;
+	float: left;
+	margin-left: 2.5641%;
+	width: 100%;
+	display: block;
+}
+#AboutGames {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	border: solid #666;
+}
+#Fallout4 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#Fallout4pic {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#fallout4picgamestab {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#falloutfour {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#falloutnewvegas {
+	clear: none;
+	float: left;
+	margin-left: 2.5641%;
+	width: 100%;
+	display: block;
+}
+#falloutthree {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#fallouttactics {
+	clear: none;
+	float: left;
+	margin-left: 2.5641%;
+	width: 100%;
+	display: block;
+}
+#fallouttwo {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#falloutone {
+	clear: none;
+	float: left;
+	margin-left: 2.5641%;
+	width: 100%;
+	display: block;
+}
+#gamesborder {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#fallout4info {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#falloutNVinfo {
+	clear: none;
+	float: left;
+	margin-left: 2.5641%;
+	width: 100%;
+	display: block;
+}
+#farharbor {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#farharborpic {
+	clear: none;
+	float: left;
+	margin-left: 2.5641%;
+	width: 100%;
+	display: block;
+}
+#farhaborpic1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#farharpic1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#farharbortext1 {
+	clear: none;
+	float: left;
+	margin-left: 2.5641%;
+	width: 23.0769%;
+	display: block;
+}
+#farharbortext2 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#farharborpic2 {
+	clear: none;
+	float: left;
+	margin-left: 2.5641%;
+	width: 100%;
+	display: block;
+}
+#farharbor2 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 74.3589%;
+	display: block;
+}
+#wastelandworkshop {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#wwpic1 {
+	clear: none;
+	float: left;
+	margin-left: 2.5641%;
+	width: 35.8974%;
+	display: block;
+}
+#wwpic2 {
+	clear: none;
+	float: left;
+	margin-left: 2.5641%;
+	width: 48.7179%;
+	display: block;
+}
+#wwtext {
+	clear: none;
+	float: left;
+	margin-left: 2.5641%;
+	width: 48.7179%;
+	display: block;
+}
+#appspic1 {
+	clear: none;
+	float: left;
+	margin-left: 2.5641%;
+	width: 100%;
+	display: block;
+}
+#appspic2 {
+	clear: none;
+	float: left;
+	margin-left: 2.5641%;
+	width: 100%;
+	display: block;
+}
+#falloutsheltertext {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#falloutchattext {
 	clear: none;
 	float: left;
 	margin-left: 2.5641%;
@@ -477,15 +882,10 @@ body {
 }
 #LayoutDiv2 {
 	clear: both;
-	
 	float: left;
-	
 	margin-left: 0;
-	
 	width: 100%;
-	
 	display: block;
-	
 }
 #about {
 	clear: both;
@@ -503,7 +903,9 @@ body {
 	margin-left: 0;
 	width: 100%;
 	display: block;
-	
+	margin-top:10px;
+	border: solid #666;
+	text-align:center;
 }
 #fallout4picture {
 	clear: both;
@@ -519,13 +921,9 @@ body {
 }
 #falloutvegaspic {
 	clear: none;
-	
 	float: left;
-	
 	margin-left: 2.0408%;
-	
 	width: 48.9795%;
-	
 	display: block;
 	
 }
@@ -601,6 +999,237 @@ body {
 	margin-left: 470px;
 	width: 18.3673%;
 	display: block;
+	
+}
+#AboutGames {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	text-align:center;
+}
+#Fallout4 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#Fallout4pic {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 48.9795%;
+	display: block;
+}
+#fallout4picgamestab {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#falloutfour {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 48.9795%;
+	display: block;
+	margin-top: 10px;
+}
+#falloutnewvegas {
+	clear: none;
+	float: left;
+	margin-left: 2.0408%;
+	width: 48.9795%;
+	display: block;
+	margin-top:10px;
+}
+#falloutthree {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 48.9795%;
+	display: block;
+	margin-top:10px;
+}
+#fallouttactics {
+	clear: none;
+	float: left;
+	margin-left: 2.0408%;
+	width: 48.9795%;
+	display: block;
+	margin-top: 10px;
+}
+#fallouttwo {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 48.9795%;
+	display: block;
+	margin-top: 10px;
+}
+#falloutone {
+	clear: none;
+	float: left;
+	margin-left: 2.0408%;
+	width: 48.9795%;
+	display: block;
+	margin-top:10px;
+}
+#gamesborder {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#fallout4info {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 48.9795%;
+	display: block;
+	margin-top:10px;
+}
+#falloutNVinfo {
+	clear: none;
+	float: left;
+	margin-left: 2.0408%;
+	width: 48.9795%;
+	display: block;
+	margin-top: 10px;
+}
+#farharbor {
+	clear: both;
+	float: left;
+	width: 100%;
+	display: block;
+}
+#farharpic1 {
+	clear: both;
+	float: left;
+	margin-left: 0;;
+	width: 48.9795%;
+	display: block;
+}
+#farharbortext1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	margin-top: 10px;
+}
+#farharbortext2 {
+	clear: both;
+	float: left;
+	margin-left: 30.6122%;
+	width: 79.5918%;
+	display: block;
+	margin-top:0px;
+	
+}
+#farharborpic2 {
+	clear: both;
+	
+	float: left;
+	
+	margin-left: 51.0204%;
+	
+	width: 48.9795%;
+	
+	display: block;
+	
+}
+#farharbor2 {
+	clear: none;
+	
+	float: left;
+	
+	margin-left: 2.0408%;
+	
+	width: 48.9795%;
+	
+	display: block;
+	
+}
+#wastelandworkshop {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	margin-top:10px;
+	
+}
+#wwpic1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 38.7755%;
+	display: block;
+	
+}
+#wwpic2 {
+	clear: none;
+	float: left;
+	margin-left: 0%;
+	width: 48.9795%;
+	display: block;
+	
+}
+#wwtext {
+	clear: none;
+	float: left;
+	margin-left: 2.0408%;
+	width: 48.9795%;
+	display: block;
+	margin-top:10px;
+	
+}
+
+#appspic1 {
+	clear: both;
+	
+	float: left;
+	
+	margin-left: 2.0408%;
+	
+	width: 47%;
+	
+	display: block;
+	
+}
+#appspic2 {
+	clear:none;
+	
+	float: left;
+	
+	margin-left: 2%;
+	
+	width: 47%;
+	
+	display: block;
+	
+}
+#falloutsheltertext {
+	clear: both;
+	float: left;
+	margin-left: 2%;
+	width: 47%;
+	display: block;
+	margin-top: 10px;
+	
+}
+#falloutchattext {
+	clear: none;
+	float: left;
+	margin-left: 2.0408%;
+	width: 47%;
+	display: block;
+	margin-top:10px;
 	
 }
 }
