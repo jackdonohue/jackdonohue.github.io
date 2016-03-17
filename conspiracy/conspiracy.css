@@ -1,0 +1,463 @@
+@charset "utf-8";
+/* Simple fluid media
+   Note: Fluid media requires that you remove the media's height and width attributes from the HTML
+   http://www.alistapart.com/articles/fluid-images/ 
+*/
+img, object, embed, video {
+	max-width: 100%;
+}
+/* IE 6 does not support max-width so default to width 100% */
+.ie6 img {
+	width:100%;
+}
+
+/*
+	Dreamweaver Fluid Grid Properties
+	----------------------------------
+	dw-num-cols-mobile:		5;
+	dw-num-cols-tablet:		8;
+	dw-num-cols-desktop:	10;
+	dw-gutter-percentage:	25;
+	
+	Inspiration from "Responsive Web Design" by Ethan Marcotte 
+	http://www.alistapart.com/articles/responsive-web-design
+	
+	and Golden Grid System by Joni Korpi
+	http://goldengridsystem.com/
+*/
+
+/* Mobile Layout: 480px and below. */
+p{
+	color:#999;
+	font: Times;
+}
+.dropDownMenu ul ul {
+	list-style: none;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	font: "Times New Roman", Times, serif;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+}
+/* Menu General Styles */
+.menuBackground {
+	background: #0CC;
+}
+.dropDownMenu a {
+	color: #666;
+}
+.dropDownMenu ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.dropDownMenu li {
+	position: relative;
+}
+.dropDownMenu a {
+	padding: 10px 20px;
+	display: block;
+	text-decoration: none;
+}
+.dropDownMenu a:hover {
+	background: #CCC;
+}
+
+
+/* Level 1 Drop Down Menu */
+.dropDownMenu > li {
+	display: inline-block;
+	vertical-align: top;
+	margin-left: ; 
+}
+.dropDownMenu > li:first-child {
+	margin-left: 0;
+}
+.dropDownMenu > li > ul {
+	text-align: center;
+	width: auto; 
+	display: none;
+	background: #099;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	z-index: 9999999;
+}
+.dropDownMenu > li:hover > ul {
+	display: block;
+}
+.dropDownMenu > li > ul > li > ul {
+	text-align: center;
+	display: none;
+	background: #390;
+	position: absolute;
+	left: 100%;
+	top: 0;
+	z-index: 9999999;
+}
+.dropDownMenu > li > ul > li:hover > ul {
+	display: block;
+}
+.gridContainer {
+	margin-left: auto;
+	margin-right: auto;
+	width: 87.36%;
+	padding-left: 1.82%;
+	padding-right: 1.82%;
+}
+#nav {
+	text-align:center;
+	clear: none;
+	float: left;
+	margin-left:%;
+	width: 100%;
+	display: block;
+}
+#content {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	margin-top: 10px;
+	height: 900px;
+	background-color:#CCC;
+}
+#WhatsHarp {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	height:300px;
+}
+h2 {
+	text-align:left;
+	color:#666;
+}
+p {
+	color:#000;
+}
+#whatisharptext {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	margin-top: 10px;
+}
+#haarppic1 {
+	clear: both;
+	float: left;
+	margin-left:;
+	width: 100%;
+	display: block;
+	margin-top:10px;
+	height: -100px;
+}
+#haarppic2 {
+	clear: none;
+	float: left;
+	margin-left:-50px;
+	width: 100%;
+	display: block;
+	margin-top: 10px;
+}
+#harpic1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 58.3333%;
+	display: block;
+	text-align:center;
+	position:relative;
+	left:80px;
+}
+#harpic2 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 58.3333%;
+	display: block;
+	left:80px;
+	position:relative
+}
+#haarptext2 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	margin-top: 10px;
+}
+#ConspiracyTheories {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	margin-top: 345px;
+	height: 200px;
+}
+#poll {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: none;
+}
+#youtubevid {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#haarpvideo {
+	clear: none;
+	float: left;
+	margin-left: 4.1666%;
+	width: 100%;
+	display: none;
+	text-align:center;
+}
+#tabletpiconly {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+/* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
+
+@media only screen and (min-width: 481px) {
+.gridContainer {
+	width: 90.675%;
+	padding-left: 1.1625%;
+	padding-right: 1.1625%;
+}
+#nav {
+	clear: none;
+	float: left;
+	margin-left: 2.5641%;
+	width: 100%;
+	display: block;
+}
+#content {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#WhatsHarp {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#whatisharptext {
+	clear: both;
+	float: left;
+	margin-left: 0%;
+	width: 100%;
+	display: block;
+}
+#haarppic1 {
+	clear: both;
+	float: left;
+	margin-left: 0%;
+	width: 100%;
+	display: block;
+	left: 0px;
+}
+#haarppic2 {
+	clear: none;
+	float: right;
+	margin-left:0%;
+	width: 100%;
+	display: block;
+	left: 0px;
+}
+#harpic1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 35.8974%;
+	display: block;
+	left:0px;
+}
+#harpic2 {
+	clear: none;
+	float: left;
+	margin-left: 2.5641%;
+	width: 35.8974%;
+	display: block;
+}
+#haarptext2 {
+	clear: both;
+	float: left;
+	margin-left:;
+	width: 74.3589%;
+	display: block;
+	margin-top:10px;
+	margin-left: 0;
+}
+#ConspiracyTheories {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 87.1794%;
+	display: block;
+	margin-top:110px;
+}
+#poll {
+	clear: both;
+	float: left;
+	margin-left:0% ;
+	width: 100%;
+	display: none;
+
+
+}
+#youtubevid {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 75%;
+	display: block;
+}
+#haarpvideo {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	margin-top:20px;
+}
+}
+
+/* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
+
+@media only screen and (min-width: 769px) {
+
+.gridContainer {
+	width: 88.2%;
+	max-width: 1232px;
+	padding-left: 0.9%;
+	padding-right: 0.9%;
+	margin: auto;
+}
+#nav {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#content {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	background-color:#CCC;
+}
+#WhatsHarp {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#whatisharptext {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#haarppic1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 28.5714%;
+	display: block;
+}
+#haarppic2 {
+	clear: none;
+	float: left;
+	margin-left: 2.0408%;
+	width: 28.5714%;
+	display: block;
+}
+#harpic1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 28.5714%;
+	display: block;
+	margin-top: 10px;
+}
+#harpic2 {
+	clear: none;
+	float: left;
+	margin-left: 2.0408%;
+	width: 28.5714%;
+	display: block;
+	margin-top: 10px;
+}
+#haarptext2 {
+	clear: none;
+	float: left;
+	margin-left: 12.2448%;
+	width: 28.5714%;
+	display: block;
+	margin-top: 10px;
+
+}
+#ConspiracyTheories {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	margin-top:30px;
+}
+#poll {
+	clear: none;
+	float: left;
+	margin-left: 2.0408%;
+	width: 28.5714%;
+	display: block;
+	left: 0px;
+	margin-top:20px;
+}
+#youtubevid {
+	clear: both;
+
+	float: left;
+
+	margin-left: 40.8163%;
+
+	width: 48.9795%;
+
+	display: block;
+
+}
+#haarpvideo {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 48.9795%;
+	display: block;
+	right: -100px;
+
+}
+}
