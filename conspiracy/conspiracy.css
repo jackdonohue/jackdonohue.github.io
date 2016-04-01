@@ -28,7 +28,7 @@ img, object, embed, video {
 
 /* Mobile Layout: 480px and below. */
 p{
-	color:#999;
+	color:#666;
 	font: Times;
 }
 .dropDownMenu ul ul {
@@ -46,26 +46,33 @@ body {
 }
 /* Menu General Styles */
 .menuBackground {
-	background: #0CC;
+	background: #666;
 }
-.dropDownMenu a {
-	color: #666;
+.dropDownMenu{
+	height:40px;
 }
 .dropDownMenu ul {
 	list-style: none;
-	margin: 0;
-	padding: 0;
+	background-color:#666;
+		margin:1px;
+
+	padding: 2px;
+
 }
 .dropDownMenu li {
 	position: relative;
+	width:75px;
+	
 }
 .dropDownMenu a {
-	padding: 10px 20px;
+		color: #CCC;
+	padding:11px 20px;
+	
 	display: block;
 	text-decoration: none;
 }
 .dropDownMenu a:hover {
-	background: #CCC;
+	border: solid black 1px;
 }
 
 
@@ -82,9 +89,9 @@ body {
 	text-align: center;
 	width: auto; 
 	display: none;
-	background: #099;
+	background: #666;
 	position: absolute;
-	top: 100%;
+	top:95%;
 	left: 0;
 	z-index: 9999999;
 }
@@ -117,7 +124,17 @@ body {
 	margin-left:%;
 	width: 100%;
 	display: block;
+
+	color: #CCC;
+	height: 70px;
 }
+a;visited {
+	color: #CCC;
+}
+a {
+	color: #CCC;	
+}
+
 #content {
 	clear: both;
 	float: left;
@@ -137,7 +154,7 @@ body {
 	height:300px;
 }
 h2 {
-	text-align:left;
+	text-align:center;
 	color:#666;
 }
 p {
@@ -233,6 +250,117 @@ p {
 	width: 100%;
 	display: block;
 }
+#theorytext1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	text-align:center;
+	margin-top:10px;
+}
+#theorypic1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	margin-top: 10px;
+	text-align:center;
+}
+#theorytext2 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#theorytext3 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	margin-top:10px;
+}
+#theorypic2 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	margin-top:10px;
+}
+#theorypic3 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	margin-top:10px;
+}
+#theorytext4 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#theorypic4 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	margin-top:10px;
+}
+#theorypic5 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	margin-top:10px;
+}
+#theorytext5 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	margin-top: 10px;
+}
+#theorypic6 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	margin-top:10px;
+	text-align:center;
+}
+#theorytext6 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	margin-top:10px;
+}
+#sourcestext {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#confirmed {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
 /* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
 
 @media only screen and (min-width: 481px) {
@@ -241,10 +369,15 @@ p {
 	padding-left: 1.1625%;
 	padding-right: 1.1625%;
 }
+.dropDownMenu li {
+	position: relative;
+	width:150px;
+	
+}
 #nav {
-	clear: none;
+	clear: both;
 	float: left;
-	margin-left: 2.5641%;
+	margin-left: 0;
 	width: 100%;
 	display: block;
 }
@@ -341,6 +474,104 @@ p {
 	display: block;
 	margin-top:20px;
 }
+#theorytext1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#theorypic1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#theorytext2 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#theorytext3 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#theorypic2 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 48.7179%;
+	display: block;
+}
+#theorypic3 {
+	clear: none;
+	float: left;
+	margin-left: 2.5641%;
+	width: 48.7179%;
+	display: block;
+}
+#theorytext4 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#theorypic4 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 48.7179%;
+	display: block;
+}
+#theorypic5 {
+	clear: none;
+	float: left;
+	margin-left: 2.5641%;
+	width: 48.7179%;
+	display: block;
+}
+#theorytext5 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#theorypic6 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#theorytext6 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#sourcestext {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#confirmed {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
 }
 
 /* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
@@ -354,12 +585,18 @@ p {
 	padding-right: 0.9%;
 	margin: auto;
 }
+.dropDownMenu li {
+	position: relative;
+	width:200px;
+	
+}
 #nav {
 	clear: both;
 	float: left;
 	margin-left: 0;
 	width: 100%;
 	display: block;
+	
 }
 #content {
 	clear: both;
@@ -368,6 +605,7 @@ p {
 	width: 100%;
 	display: block;
 	background-color:#CCC;
+	height:1075px;
 }
 #WhatsHarp {
 	clear: both;
@@ -412,14 +650,19 @@ p {
 	width: 28.5714%;
 	display: block;
 	margin-top: 10px;
+	position:relative;
+	left: -9px;
 }
 #haarptext2 {
 	clear: none;
 	float: left;
-	margin-left: 12.2448%;
+	margin-left: 2.0408%;
 	width: 28.5714%;
 	display: block;
 	margin-top: 10px;
+	left:-20px;
+	position:relative;
+	
 
 }
 #ConspiracyTheories {
@@ -458,6 +701,158 @@ p {
 	width: 48.9795%;
 	display: block;
 	right: -100px;
+
+}
+#theorytext1 {
+	clear: both;
+
+	float: left;
+
+	margin-left: 0;
+
+	width: 100%;
+
+	display: block;
+
+}
+#theorypic1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+
+}
+#theorytext2 {
+	clear: both;
+
+	float: left;
+
+	margin-left: 0;
+
+	width: 100%;
+
+	display: block;
+
+}
+#theorytext3 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+
+}
+#theorypic2 {
+	clear: both;
+
+	float: left;
+
+	margin-left: 0;
+
+	width: 48.9795%;
+
+	display: block;
+
+}
+#theorypic3 {
+	clear: none;
+	float: left;
+	margin-left: 2.0408%;
+	width: 48.9795%;
+	display: block;
+
+}
+#theorytext4 {
+	clear: both;
+
+	float: left;
+
+	margin-left: 0;
+
+	width: 100%;
+
+	display: block;
+
+}
+#theorypic4 {
+	clear: both;
+
+	float: left;
+
+	margin-left: 0;
+
+	width: 48.9795%;
+
+	display: block;
+
+}
+#theorypic5 {
+	clear: none;
+
+	float: left;
+
+	margin-left: 2.0408%;
+
+	width: 48.9795%;
+
+	display: block;
+
+}
+#theorytext5 {
+	clear: both;
+
+	float: left;
+
+	margin-left: 0;
+
+	width: 100%;
+
+	display: block;
+
+}
+#theorypic6 {
+	clear: both;
+
+	float: left;
+
+	margin-left: 0;
+
+	width: 100%;
+
+	display: block;
+
+}
+#theorytext6 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+
+}
+#sourcestext {
+	clear: both;
+
+	float: left;
+
+	margin-left: 0;
+
+	width: 100%;
+
+	display: block;
+
+}
+#confirmed {
+	clear: both;
+
+	float: left;
+
+	margin-left: 10.204%;
+
+	width: 100%;
+
+	display: block;
 
 }
 }
