@@ -41,7 +41,7 @@ img, object, embed, video {
 	margin-left: 0;
 	width: 100%;
 	display: block;
-	height: 300px;
+	height: 100px;
 	background-image:url(football%20banner.jpg);
 	background-size:cover;
 	background-repeat:no-repeat;
@@ -151,13 +151,13 @@ body {
 	left: 20px;
 }
 #personalinfo {
-	clear: none;
+	clear: both;
 	float: left;
-	margin-left: 4.1666%;
+	margin-left: 0;
 	width: 100%;
 	display: block;
 	margin-top:20px;
-	height: 300px;
+	height: 100px;
 	border: solid black 1px;
 }
 #aboutme {
@@ -167,8 +167,16 @@ body {
 	width: 100%;
 	display: block;
 	margin-top:20px;
-	height:200px;
+	height:100px;
 	border: solid black 1px;
+}
+h2 {
+	padding: 1%;
+	
+}
+p{
+	margin-left:10px;
+	
 }
 #text1 {
 	clear: both;
@@ -280,7 +288,7 @@ body {
 #photo1 {
 	clear: both;
 	float: left;
-	margin-left: 0;
+	margin-left: 12.8205%;
 	width: 61.5384%;
 	display: block;
 }
@@ -290,7 +298,6 @@ body {
 	margin-left: 0;
 	width: 100%;
 	display: block;
-	height:100px;
 }
 #aboutme {
 	clear: both;
@@ -396,6 +403,7 @@ body {
 	margin-left: 0;
 	width: 100%;
 	display: block;
+		height: 300px;
 }
 #nav {
 	clear: both;
@@ -428,7 +436,7 @@ body {
 	margin-left: 12.2448%;
 	width: 28.5714%;
 	display: block;
-	height:400px;
+	height:100px;
 }
 #aboutme {
 	clear: both;
@@ -436,7 +444,8 @@ body {
 	margin-left: 0;
 	width: 100%;
 	display: block;
-	margin-top:80px;
+	margin-top:120px;
+	
 }
 #text1 {
 	clear: both;
