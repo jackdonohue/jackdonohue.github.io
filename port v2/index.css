@@ -166,7 +166,7 @@ body {
 	margin-left: 0;
 	width: 100%;
 	display: block;
-	margin-top:20px;
+	margin-top:0px;
 	height:100px;
 	border: solid black 1px;
 }
@@ -247,6 +247,21 @@ p{
 	margin-top:10px;
 }
 #website4 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	margin-top:10px;
+}
+#video {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#highlights {
 	clear: both;
 	float: left;
 	margin-left: 0;
@@ -385,6 +400,21 @@ p{
 	width: 48.7179%;
 	display: block;
 }
+#video {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#highlights {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	margin-top:10px;
+}
 }
 
 /* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
@@ -425,8 +455,8 @@ p{
 	margin-left: 0;
 	width: 48.9795%;
 	display: block;
-	margin-top: 20px;
-	height: 300px;
+	margin-top: 45px;
+	height: 310px;
 	position:relative;
 	left: 20px;
 }
@@ -436,7 +466,14 @@ p{
 	margin-left: 12.2448%;
 	width: 28.5714%;
 	display: block;
-	height:100px;
+	height:85px;
+	text-align:center;
+	position:relative;
+	top:10px;
+}
+ol{
+	text-decoration:none;
+	
 }
 #aboutme {
 	clear: both;
@@ -444,7 +481,7 @@ p{
 	margin-left: 0;
 	width: 100%;
 	display: block;
-	margin-top:120px;
+	margin-top:20px;
 	
 }
 #text1 {
@@ -519,5 +556,20 @@ p{
 	margin-left: 2.0408%;
 	width: 48.9795%;
 	display: block;
+}
+#video {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#highlights {
+	clear: none;
+	float: left;
+	margin-left: 2.0408%;
+	width: 48.9795%;
+	display: block;
+	margin-top: 25px;
 }
 }
