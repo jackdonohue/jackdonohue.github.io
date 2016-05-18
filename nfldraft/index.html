@@ -11,16 +11,14 @@ var image = [] , x=0
 
 image[0]="nfldraft1.jpg";
 
-image[1]="nfldraft2.jpg";
+image[1]="nfldraft3.png";
 
-image[2]="nfldraft3.png";
-
-image[3]="nfldraft4.jpg";
+image[2]="nfldraft4.jpg";
 
 function next(){
 	x= x + 1;
 	document.getElementById('slideimg').src = image[x]
-	if (x===3){x=-1
+	if (x===2){x=-1
 		}
 
 }
@@ -50,7 +48,7 @@ Do the following if you're using your customized build of modernizr (http://www.
 <script src="respond.min.js"></script>
 </head>
 <body onLoad="timer()">
-<img src="GettyImages-525782468.vresize.1200.675.high.99.jpg">
+
 <div class="gridContainer clearfix">
 
   <div id="nav">
@@ -63,9 +61,9 @@ Do the following if you're using your customized build of modernizr (http://www.
   <div id="content">
     <div id="nfldrafttextheader"><img src="cooltext182569943807115.png"></div>
     <div id="slideshow"><img src="nfldraft1.jpg"id="slideimg"/></div>
-    <div id="offense">This is the content for Layout Div Tag "offense"</div>
-    <div id="defence">This is the content for Layout Div Tag "defence"</div>
-    <div id="Unique">This is the content for Layout Div Tag "Unique"</div>
+    <div id="offense"><a href="#"><img src="offense.png"></a><ol><li>Laremy Tunsil, OT, Rank 1</li></ol></div>
+    <div id="defence"><a href="#"><img src="defense.png"></a><ol><li>Jalen Ramsey, FS, Rank 1</li></ol></div>
+    <div id="Unique"><a href="#"><img src="unique.png"></a><ol><li>Moritz Boehringer, WR</li></ol></div>
   </div>
 </div>
 </body>

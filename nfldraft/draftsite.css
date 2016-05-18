@@ -125,10 +125,10 @@ body {
 	border:1px solid black;
 }
 #nflpicture {
-	clear: none;
+	clear: both;
 	float: left;
-	margin-left: 4.1666%;
-	width: 100%;
+	margin-left: 20.8333%;
+	width: 58.3333%;
 	display: block;
 }
 #dropdownmenu {
@@ -151,7 +151,7 @@ body {
 	clear: both;
 	float: left;
 	margin-left: 0;
-	width: 100%;
+	width: 37.5%;
 	display: block;
 }
 #content {
@@ -204,17 +204,17 @@ li{
 	margin-top:10px;
 }
 #defence{
-	clear: none;
+	clear: both;
 	float: left;
-	margin-left: 4.1666%;
+	margin-left: 0;
 	width: 100%;
 	display: block;
 	margin-top:10px;
 }
 #Unique{
-	clear: none;
+	clear: both;
 	float: left;
-	margin-left: 4.1666%;
+	margin-left: 0;
 	width: 100%;
 	display: block;
 	margin-top:10px; 
@@ -238,14 +238,14 @@ li{
 	clear: both;
 	float: left;
 	margin-left: 0;
-	width: 100%;
+	width: 35.8974%;
 	display: block;
 }
 #nflpicture {
-	clear: none;
+	clear: both;
 	float: left;
-	margin-left: 2.5641%;
-	width: 100%;
+	margin-left: 0;
+	width: 74.3589%;
 	display: block;
 }
 #dropdownmenu {
@@ -267,21 +267,21 @@ li{
 	clear: both;
 	float: left;
 	margin-left: 0;
-	width: 100%;
+	width: 61.5384%;
 	display: block;
 }
 #content {
 	clear: none;
 	float: left;
 	margin-left: 2.5641%;
-	width: 100%;
+	width: 48.7179%;
 	display: block;
 }
 #nfldrafttextheader {
 	clear: both;
 	float: left;
-	margin-left: 0;
-	width: 100%;
+	margin-left: 25.641%;
+	width: 61.5384%;
 	display: block;
 }
 #draftphoto1 {
@@ -294,29 +294,29 @@ li{
 #slideshow {
 	clear: both;
 	float: left;
-	margin-left: 0;
-	width: 100%;
+	margin-left: 25.641%;
+	width: 61.5384%;
 	display: block;
 }
 #offense {
 	clear: both;
 	float: left;
-	margin-left: 0;
-	width: 100%;
+	margin-left: 25.641%;
+	width: 61.5384%;
 	display: block;
 }
 #defence {
-	clear: none;
+	clear: both;
 	float: left;
-	margin-left: 2.5641%;
-	width: 100%;
+	margin-left: 25.641%;
+	width: 61.5384%;
 	display: block;
 }
 #Unique {
-	clear: none;
+	clear: both;
 	float: left;
-	margin-left: 2.5641%;
-	width: 100%;
+	margin-left: 25.641%;
+	width: 61.5384%;
 	display: block;
 }
 }
@@ -351,6 +351,7 @@ li{
 	margin-left: 22.4489%;
 	width: 59.1836%;
 	display: block;
+	text-align:center;
 }
 #dropdownmenu {
 	clear: both;
@@ -359,6 +360,7 @@ li{
 	width: 100%;
 	display: block;
 }
+
 #afc {
 	clear: both;
 	float: left;
@@ -415,6 +417,11 @@ img {
 	margin-left: 0;
 	width: 28.5714%;
 	display: block;
+	height:190px;
+	position:relative;
+	left:10px;
+	border: 1px solid black;
+	text-align:center;
 }
 #defence {
 	clear: none;
@@ -422,6 +429,11 @@ img {
 	margin-left: 2.0408%;
 	width: 28.5714%;
 	display: block;
+	position:relative;
+	left:35px;
+	height:190px;
+	border: 1px solid black;
+	text-align:center;
 }
 #Unique {
 	clear: none;
@@ -429,5 +441,10 @@ img {
 	margin-left: 2.0408%;
 	width: 28.5714%;
 	display: block;
+	position:relative;
+	left:65px;
+	height:190px;
+	border: 1px solid black;
+	text-align:center;
 }
 }
