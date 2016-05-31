@@ -31,6 +31,7 @@ Do the following if you're using your customized build of modernizr (http://www.
 function L(){
 	document.getElementById('1').style.display="none";
 	document.getElementById('2').style.display="none";
+	document.getElementById('3').style.display="none";
 }
 function display1(){
 	document.getElementById('1').style.display="block";
@@ -41,23 +42,25 @@ function display2(){
 	document.getElementById('2').style.display="block";
 }
 function display3(){
-	document.getElementById('1').style.display="block";
-	document.getElementById('2').style.display="block";
-	document.getElementById('1').style.color="red";
-	document.getElementById('2').style.color="blue";
+	document.getElementById('1').style.display="none";
+	document.getElementById('2').style.display="none";
+	document.getElementById('3').style.display="block";
+
 }
 </script>
 <div class="gridContainer clearfix">
-  <div id="1">This is the content for Layout Div Tag "one"</div>
-  <div id="2">This is the content for Layout Div Tag "two"</div>
+  <div id="1">no list</div>
+  <div id="2">likes</div>
+  <div id="3">dislikes
+  </div>
   <button onclick="display1()">
-  button 1
+  no list
   </button>
   <button onclick="display2()">
-  button 2
+  likes
   </button>
   <button onclick="display3()">
-  button 3
+  dislikes
   </button>
 </div>
 </body>
