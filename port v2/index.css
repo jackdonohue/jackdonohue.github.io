@@ -270,6 +270,13 @@ p{
 	display: block;
 	margin-top:10px;
 }
+#contact {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
 
 
 /* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
@@ -415,6 +422,13 @@ p{
 	width: 100%;
 	display: block;
 	margin-top:10px;
+}
+#contact {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
 }
 }
 
@@ -572,5 +586,12 @@ ol{
 	width: 48.9795%;
 	display: block;
 	margin-top: 25px;
+}
+#contact {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
 }
 }
