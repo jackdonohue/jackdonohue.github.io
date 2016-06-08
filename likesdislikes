@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<head>
+<title> EXAM </title>
+</head>
+<body>
+<script>
+function list(L){
+list(L){
+case 1:
+document.getElementById("content").innerHTML="";
+break;
+case 2:
+document.getElementById("content").innerHTML="<li>cats</li><li>football</li><li>baseball</li>";
+break;
+case 3:
+document.getElementById("content").innerHTML="<li>clowns</li><li>snakes</li><li>spiders</li>";
+}}
+</script>
+<h1> Jack Donohue </h1>
+<button onclick="list(1)">no list</button>
+<button onclick="list(2)">likes</button>
+<button onclick="list(3)">dislikes</button>
+<ul id="content"></ul>
+</body>
+</html>
